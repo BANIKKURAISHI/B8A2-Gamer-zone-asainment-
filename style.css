@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0px;
 }
 
 /*Nav section is start here*/
@@ -16,7 +16,7 @@
 .nav-section1{
     display: flex;
     padding: 35px;
-    margin:46px 300px 46px 0px ;
+    margin:46px 300px 46px 250px ;
 }
 
 .nav-section2{
@@ -30,6 +30,7 @@
     padding: 17px 18px ;
     border-radius: 10px;
     margin: 37px 240px 37px 0px;
+    
 }
 
 .gamer{
@@ -62,13 +63,269 @@ div li  {
     font-weight: 500;
     line-height: normal;
 }
+/*Main section is start here*/
+.first-section {
+    display: flex;
+    background:linear-gradient(rgba(140, 87, 238, 0.03) 0%), rgba(241, 68, 174, 0.03)
+}
+.stylee{
+    font-size: 100px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+ 
+}
+.primary{
+   
+    background:var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn{
+    display: inline-flex;
+padding: 22px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 45%;
+margin: 30px auto 30px 7px;
+}
+.secoundary{
+ background-color:    #4EC5F7;
+}
+.right-seaction{
+    margin:10px 30px 10px 60px ;
+}
+.little{
+   text-align: justify;
+}
+
+.left-seaction{
+    text-align: justify;
+    margin: 200px 300px 250px 150px;
+    flex-shrink: 0;
+    background-image: url(images/Group\ 14.png);
+ padding-left: 20px;
+}
+.little{
+    margin: 10px;
+}
+.seaction-title{
+    font-size: 2.3rem;
+}
+
+.section2{
+    width: 1920px;
+    height: 600px;
+    flex-shrink: 0;
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.right-section2{
+
+text-align: right;
+margin: auto 220px auto 170px;
+
+}
+.left-section2{
+    margin: 50px 20px 50px 240px;
+}
+
+.header{
+font-size: 2rem;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.write{
+
+}
+.head-2{}
+.lite{
+    font-size: 2rem;
+    
+}
+
+/*.heading{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}*/
+.seaction3{
+   text-align: center;
+   margin-top: 80px;
+}
+.seaction-4{
+    display: flex;
+    margin:10px 110px 10px 170px ;
+    justify-content: center;
+  gap: 30px;
+    
+}
+
+
+
+.images3:hover{
+    border: 3px solid rebeccapurple;
+}
+.images4:hover{
+    border: 3px solid rebeccapurple;
+}
+.images5:hover{
+    border: 3px solid rebeccapurple;
+}
+.images6:hover{
+    border: 3px solid rebeccapurple;
+}
+.under-picture{
+ 
+}
+
+.images9{
+    transform: translate(-145px,-255px);
+}
+.seaction-style{
+    display: flex;
+    justify-content: center;
+}
+.right-seaction3{
+    margin:10px 160px 10px 300px ;
+
+}
+.left-seaction3{
+    margin: 260px 190px 90px 210px;
+    text-align: right;
+  
+}
+.images8:hover{
+    border: 1px solid blueviolet;
+}
+.images10:hover{
+    border: 1px solid blueviolet; 
+}
+
+.secation-6{
+    display: flex;
+}
+.images11{
+    transform: translate(-140px,-135px);
+  margin-left: 600px;
+  margin-top:-150px;
+   
+}
+
+.right-seaction4{
+    margin-top: 220px;
+    margin-left: 140px;
+}
+
+.left-secation-4{
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+.para1{
+    margin-top: 20px;
+}
+
 
 
 
 /*Responsive style is start here  */
 
 /*Responsesive style for mobile */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 600px){
+
+.secation-6{
+    flex-direction: column-reverse;
+}
+
+.left-seaction3:hover{
+    border: 1px solid blueviolet;
+}
+.right-seaction4:hover{
+    border: 1px solid blueviolet;
+}
+
+.left-secation-4{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.right-seaction4{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+    .seaction3{
+        text-align: center;
+        display: block;
+    }
+    .right-seaction3{
+        margin: 20px 20px;
+    }
+    .left-seaction3{
+    margin: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    .right-seaction4{
+        margin:20px;
+        text-align: center; 
+    }
+    .seaction-4,.seaction-style{
+        flex-direction: column;
+        margin: 20px 55px ;
+        margin-top: 30px;
+    }
+   
+    .images8, .images10{
+        width:330px;
+    }
+    .images10{
+        margin: 40px 50px ;
+    }
+  .images9{
+    transform: translate(-45px,-75px);
+    width: 100px;
+  }
+  
+
+  .images11{
+    width: 100px;
+    transform: translate(175px,05px);
+    margin-left: 140px;
+  }
+    .left-section2{
+       margin:20px 40px 30px 20px;
+       padding: 10px;
+     
+      
+    }
+
+    .right-section2{
+        text-align:left;
+        margin: 50px;
+        margin-bottom: 25px;
+ 
+ }
+
+.images2{
+    width:500px;
+   
+    
+}
+    .section2{
+ 
+   flex-direction: column;
+   background: none;
+    }
+
+
 
     .nav-section ,.nav-section1
     .nav-section2,.nav-section3{
@@ -105,4 +362,26 @@ div li  {
     .follow {
         
     }
+
+.section2{
+    flex-direction: column;
 }
+    .left-seaction{
+
+    }
+.first-section{
+        
+        flex-direction: column-reverse;
+}
+.left-seaction{
+    margin: auto;
+}
+.right-seaction{
+    margin:auto;
+  
+}
+.images1{
+    width: 400px;
+}
+}
+
