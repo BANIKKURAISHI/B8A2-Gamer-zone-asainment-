@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+
+/*Nav section is start here*/
+.nav-section{
+  display: flex;
+    background-color:#FFF; 
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin: 1rem;
+    font-size: 2rem;
+}
+.nav-section1{
+    display: flex;
+    padding: 35px;
+    margin:46px 300px 46px 0px ;
+}
+
+.nav-section2{
+ display: flex;
+ margin-left: 600px;
+}
+
+.nav-section3{
+    display: flex;
+    background-color: rgba(11, 2, 35, 0.10);;
+    padding: 17px 18px ;
+    border-radius: 10px;
+    margin: 37px 240px 37px 0px;
+}
+
+.gamer{
+    color:#FF42A5 ;
+}
+div li a {
+  
+    text-align: center;
+    text-decoration: none;
+}
+div li  {
+   display: flex;
+    list-style-type: none;
+   text-align: center;
+   margin-right:2rem ;
+}
+
+.youtub{
+    color: red;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.follow {
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+/*Responsive style is start here  */
+
+/*Responsesive style for mobile */
+@media screen and (max-width: 576px){
+
+    .nav-section ,.nav-section1
+    .nav-section2,.nav-section3{
+        flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content:center ;
+    
+    }
+    div li  {
+      flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .nav-section1{
+        text-align: center;
+        margin: auto;
+      
+    }
+    .nav-section2 {
+      margin: auto;
+      display: block;
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+    .nav-section3{
+     flex-direction: row;
+    margin: auto;
+    padding: 20px;
+    }
+    .follow {
+        
+    }
+}
