@@ -231,15 +231,90 @@ background-clip: text;
 .para1{
     margin-top: 20px;
 }
+.seaction-7{
+    display:grid;
+    grid-template-columns: repeat(2,1.5fr);
+    background-color: #F948B2;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.left-section-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   font-size: 1.5rem;
+    gap: 2rem;
+    margin: 10px 210px;
+}
+.left-seaction5{
+    .left-seaction5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 10px 200px;
+    }
+}
+.left-section-part2{
+    padding: 10px;
+    margin-top: 10px;
 
+}
+.new{
 
+border-radius: 10px;
+color: #F948B2;
+background-color: #FFF;
+padding: 15px;
+font-size: 1rem;
 
+}
+.details,#a1,.new{
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 230px;
+}
 
 /*Responsive style is start here  */
 
 /*Responsesive style for mobile */
 @media screen and (max-width: 600px){
+.seaction-7{
+    grid-template-columns: none;
+    
+}
+.left-seaction5{
+    margin: 30px;
+    justify-content: center;
+}
+.left-section-part{
+    margin: 10px;
+    
+}
+.new{
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 20px;
 
+}
+#a1{
+    margin-bottom: 10px;
+    text-align: justify; 
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.new-img{
+    width: 400px;
+    text-align: center;
+  margin-left: 30px;
+}
+.details{
+  margin-left:30px;
+text-align: justify;
+}
 .secation-6{
     flex-direction: column-reverse;
 }
@@ -309,17 +384,22 @@ background-clip: text;
 
     .right-section2{
         text-align:left;
+        justify-content: center;
+        align-items: center;
         margin: 50px;
         margin-bottom: 25px;
  
  }
 
 .images2{
-    width:500px;
+    width:400px;
    
-    
+    .header{
+        text-align: center;
+        margin-left:75px;
+    }
 }
-    .section2{
+ .section2{
  
    flex-direction: column;
    background: none;
