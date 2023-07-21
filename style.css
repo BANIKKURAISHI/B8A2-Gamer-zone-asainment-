@@ -541,7 +541,7 @@ text-align: justify;
         text-align:left;
         justify-content: center;
         align-items: center;
-        margin: 50px;
+        margin: 30px;
         margin-bottom: 25px;
  
  }
@@ -620,3 +620,12 @@ text-align: justify;
 }
 }
 
+
+
+/*Responsesive style for desktop */
+
+@media screen and (max-width: 601px) and (min-width: 1080px){
+
+
+
+}
