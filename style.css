@@ -17,6 +17,7 @@
     display: flex;
     padding: 35px;
     margin:46px 300px 46px 250px ;
+   
 }
 
 .nav-section2{
@@ -26,8 +27,9 @@
 
 .nav-section3{
     display: flex;
+   
     background-color: rgba(11, 2, 35, 0.10);;
-    padding: 17px 18px ;
+    padding: 20px 19px ;
     border-radius: 10px;
     margin: 37px 240px 37px 0px;
     
@@ -58,10 +60,10 @@ div li  {
     color: #3C354F;
     text-align: center;
     font-family: Work Sans;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-weight: 400;
+   
 }
 /*Main section is start here*/
 .first-section {
@@ -276,6 +278,137 @@ font-size: 1rem;
     margin-top: 50px;
     margin-left: 230px;
 }
+.id2{
+    text-decoration: none;
+    text-align: center;
+  
+ 
+}
+.arcada{
+ border: 1px solid #F948B2;
+ border-radius: 20px;
+ position: relative;
+
+}
+.seaction-9{
+display: flex;
+flex-wrap: wrap;
+margin: 100px;
+gap: 150px;
+justify-content: space-around;
+
+    }
+    .new-button{
+        border-radius: 20px;
+    }
+    .new-button:hover{
+  border: 1px solid blueviolet;
+    }
+
+.main-secation{
+  text-align: center;
+}
+
+.arcada{
+    border:1px solid #F948B2;
+    border-radius: 25px;
+    padding: 15px;
+   
+}
+
+.link{
+   justify-self: center;
+     text-decoration: none;
+   align-items: center;
+    
+
+   
+}
+.footer-section{
+    text-align: center;
+    background-color:#0B0223 ;
+    color: #FFF;
+}
+.footer-img{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   padding: 40px;
+}
+
+.footer-nav{
+    padding: 30px;
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+.footer-icon{
+    padding: 30px;
+    margin: 20px 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    gap: 150px;
+}
+
+.footer-link2{
+    padding: 30px;
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    font-size: 1.3rem;
+}
+
+.last-part{
+    color: #FFF;
+    font-size: 1.2rem;
+  padding: 30px;}
+  .link3{
+    color:wheat;
+    text-decoration: none;
+    font-size: 1.4;
+  }
+  .link2{
+    color:#FFF ;
+    text-decoration: none;
+    font-size: 1.6;
+  }
+.parents{
+    position: relative;
+    display: inline-block;
+   
+}
+.images5{
+   
+    opacity: .60;
+}
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(26, 15, 15, 0.6);
+    border: none;
+    cursor: pointer;
+}
+
+ 
+  .fa-play-circle-o{
+    position: absolute;
+top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
 
 /*Responsive style is start here  */
 
@@ -285,6 +418,28 @@ font-size: 1rem;
     grid-template-columns: none;
     
 }
+
+.seaction-9{
+display: grid;
+grid-template-columns: auto auto auto;
+margin-left: 50px;
+margin-right: 50px;
+justify-content: center;
+gap: 15px;
+}
+
+
+
+.footer-nav,.footer-icon,.footer-link2 {
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.last-part{
+    margin: 30px 100px;
+}
+
 .left-seaction5{
     margin: 30px;
     justify-content: center;
